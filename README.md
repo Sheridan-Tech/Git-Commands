@@ -1,17 +1,6 @@
 Git Commands
 ============
 
-## Translated Versions
-- [Versão em português](READMEpt.md)
-
-___
-
-_A list of my commonly used Git commands_
-
-*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
-
---
-
 ### Getting & Creating Projects
 
 | Command | Description |
@@ -83,3 +72,21 @@ _A list of my commonly used Git commands_
 | `git clean -fd` | To remove directories |
 | `git clean -f -x` | To also remove ignored files |
 
+
+## Easy Squashing 
+git reset --soft [SHA]
+git add .
+git commit -m "new squashed message"
+git push --force origin [branch name]
+
+
+## Translated Versions
+- [Versão em português](READMEpt.md)
+
+___
+
+_A list of my commonly used Git commands_
+
+*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
+
+--
