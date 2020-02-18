@@ -1,6 +1,10 @@
 Git Commands
 ============
 
+_A list of my commonly used Git commands_
+
+___
+
 ### Getting & Creating Projects
 
 | Command | Description |
@@ -74,14 +78,10 @@ Git Commands
 
 
 ## Easy Squashing 
-git reset --soft [SHA]
-git add .
-git commit -m "new squashed message"
-git push --force origin [branch name]
-
-
-## Translated Versions
-- [Versão em português](READMEpt.md)
+git reset --soft [SHA]  
+git add .  
+git commit -m "new squashed message"  
+git push --force origin [branch name]  
 
 ___
 
