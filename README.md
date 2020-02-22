@@ -33,7 +33,7 @@ ___
 | `git branch -u origin/[branch name]` | Start tracking a branch |
 | `git branch -d [branch name]` | Delete a local branch |
 | `git push origin --delete [branch name]` | Delete a remote branch |
-| `git checkout -b [branch name]` | Create a new branch and switch to it |
+| `git checkout -b [branch name]` | Copy checked out branch to a new branch and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git checkout [branch name]` | Switch to a branch |
 | `git checkout -` | Switch to the branch last checked out |
