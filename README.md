@@ -1,7 +1,7 @@
 Git Commands
 ============
 
-_A list of my commonly used Git commands_
+_A list of useful Git commands_
 
 ___
 
@@ -31,13 +31,16 @@ ___
 | `git branch [branch name]` | Create a new branch |
 | `git branch -m [old branch name] [new branch name]` | Rename a local branch |
 | `git branch -u origin/[branch name]` | Start tracking a branch |
+
 | `git branch -d [branch name]` | Delete a local branch |
 | `git push origin --delete [branch name]` | Delete a remote branch |
+
 | `git checkout -b [branch name]` | Copy checked out branch to a new branch and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git checkout [branch name]` | Switch to a branch |
 | `git checkout -` | Switch to the branch last checked out |
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
+
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
@@ -71,22 +74,33 @@ ___
 | Command | Description |
 | ------- | ----------- |
 | `git clean -n` | To see which files will be deleted by git clean |
-| `git clean -f` | To force remove all untracked files |
+| `git clean -f` | To force remove all un-tracked files |
 | `git clean -f <path>` | To remove a specific file |
 | `git clean -fd` | To remove directories |
 | `git clean -f -x` | To also remove ignored files |
 
+## Workflows
 
-## Easy Squashing 
-git reset --soft [SHA]  
-git add .  
-git commit -m "new squashed message"  
-git push --force origin [branch name]  
+### Easy Squashing
+| Command | Description |
+| ------- | ----------- |
+| `git reset --soft [SHA]` | Undo commit but leave files unchanged |
+| `git add .` | Re-add the files to be tracked |
+| `git commit -m "new squashed message"` | Commit with new message |
+| `git push --force origin [branch name]` |  Re-push, forcing it to override previous commits |
+
+### Reverting Changes to a File
+| Command | Description |
+| ------- | ----------- |
+| `git checkout [SHA] filename` | Checkout a specific file from a previous commit, repeat with other files if needed |
+| `git add .` | Re-add the files to be tracked |
+| `git commit -m "new squashed message"` | Commit with new message |
+| `git push --force origin [branch name]` |  Repush, forcing it to override previous commits |
 
 ___
 
-_A list of my commonly used Git commands_
+_A list of useful Git commands_
 
-*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
+*If you are interested in Josh's Git aliases, have a look at his `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
 
 --
