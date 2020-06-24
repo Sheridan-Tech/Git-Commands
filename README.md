@@ -48,15 +48,12 @@ ___
 | ------- | ----------- |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash save “Your stash message”` | Stash with message |
-
 | `git stash list` | View the list of stashes |
 | `git stash show` | Shows the summary of the stash diffs |
-
 | `git stash apply` | Takes the top most stash in the stack and applies it to the repo |
 | `git stash pop` | Stash apply but it deletes the stash from the stack after it is applied. |
 | `git stash drop` | Deletes the latest stash from the stack |
 | `git stash clear` | Remove all stashed entries |
-
 | `git stash branch <name> stash@{1}` | Creates a new branch with the latest stash, and then deletes the latest stash ( like stash pop) |
 
 
