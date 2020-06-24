@@ -1,8 +1,7 @@
 Git Commands
 ============
 
-_A list of useful Git commands
-A more comprehensive list with organization by task in mind_
+_A more comprehensive list of useful Git commands with organization by task in mind_
 
 ___
 
