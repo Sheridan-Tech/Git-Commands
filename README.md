@@ -47,7 +47,7 @@ ___
 | Command | Description |
 | ------- | ----------- |
 | `git stash` | Stash changes in a dirty working directory |
-| `git stash save “Your stash message”` | Stash with message |
+| `git stash save "Your stash message"` | Stash with message |
 | `git stash show` | Shows the summary of the stash diffs |
 | `git stash list` | View the list of stashes |
 | `git stash apply` | Takes the most recent stash in the stack and applies it to the repo |
