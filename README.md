@@ -109,6 +109,12 @@ ___
 | `git commit -m "new squashed message"` | Commit with new message |
 | `git push --force origin [branch name]` |  Repush, forcing it to override previous commits |
 
+### Git Pull Push
+| Command | Description |
+| ------- | ----------- |
+| `git branch --set-upstream-to=origin/branch_name branch_name` | Set upstream to origin/branch_name, fixes "git pull" |
+| `git config --global push.default matching` | Set push without parameters default, now you can just "git push"  |
+
 ___
 
 _A list of useful Git commands_
