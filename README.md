@@ -79,8 +79,10 @@ ___
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
-| `git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative` | Git Logs with Graphs and Color |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative` | Git logs with graphs and color |
+| `alias gitlg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"` | Create a gitlg shortcut in the bash shell for git logs with graphs and color, can be added to the end of your .bashrc |
+
 
 ### Cleaning Untracked Files
 
