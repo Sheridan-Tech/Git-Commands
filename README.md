@@ -12,6 +12,7 @@ ___
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
+
 ### Basic Snapshotting
 
 | Command | Description |
@@ -21,6 +22,8 @@ ___
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git diff --name-only HEAD HEAD~1` | Print the files that changed since the last commit |
+| `git diff HEAD HEAD~1` | Print the changes that were made since the last commit |
 
 
 ### Undoing Commits
@@ -31,6 +34,7 @@ ___
 | `git reset --soft HEAD~1` | Undo the Last 1 Commit, preserving changes |
 | `git reset --hard HEAD~1` | Undo the Last 1 Commit, undoing changes permanently |
 | `git reset --hard <commit_SHA>` | Undo all the commits up to the commit at that SHA |
+
 
 ### Branching & Merging
 
