@@ -22,6 +22,16 @@ ___
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
+
+### Undoing Commits
+
+| Command | Description |
+| ------- | ----------- |
+| `git reset --hard` | Discard all local changes to all files permanently |
+| `git reset --soft HEAD~1` | Undo the Last 1 Commit, preserving changes |
+| `git reset --hard HEAD~1` | Undo the Last 1 Commit, undoing changes permanently |
+| `git reset --hard <commit_SHA>` | Undo all the commits up to the commit at that SHA |
+
 ### Branching & Merging
 
 | Command | Description |
