@@ -22,6 +22,7 @@ ___
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git show --name-only` | Print the files that changed since the last commit |
 | `git diff --name-only HEAD HEAD~1` | Print the files that changed since the last commit |
 | `git diff HEAD HEAD~1` | Print the changes that were made since the last commit |
 
