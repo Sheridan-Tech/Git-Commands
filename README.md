@@ -55,6 +55,7 @@ ___
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
+| `git pull [separate_git_remote_url] [branch] --allow-unrelated-histories` | Pull a branch from different repo |
 
 
 ### Stashing
