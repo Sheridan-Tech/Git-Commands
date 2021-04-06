@@ -120,18 +120,18 @@ ___
 | 4 | `git push --force origin [branch name]` |  Re-push, forcing it to override previous commits |
 
 ### Reverting Changes to a File
-| Command | Description |
-| ------- | ----------- |
-| `git checkout [SHA] filename` | Checkout a specific file from a previous commit, repeat with other files if needed |
-| `git add .` | Re-add the files to be tracked |
-| `git commit -m "new squashed message"` | Commit with new message |
-| `git push --force origin [branch name]` |  Repush, forcing it to override previous commits |
+| Step | Command | Description |
+| ------- | ------- | ----------- |
+| 1 | `git checkout [SHA] filename` | Checkout a specific file from a previous commit, repeat with other files if needed |
+| 2 | `git add .` | Re-add the files to be tracked |
+| 3 | `git commit -m "new squashed message"` | Commit with new message |
+| 4 | `git push --force origin [branch name]` |  Repush, forcing it to override previous commits |
 
 ### Git Pull Push
-| Command | Description |
-| ------- | ----------- |
-| `git branch --set-upstream-to=origin/branch_name branch_name` | Set upstream to origin/branch_name, fixes "git pull" |
-| `git config --global push.default matching` | Set push without parameters default, now you can just "git push"  |
+| Step | Command | Description |
+| ------- | ------- | ----------- |
+| 1 | `git branch --set-upstream-to=origin/branch_name branch_name` | Set upstream to origin/branch_name, fixes "git pull" |
+| 2 | `git config --global push.default matching` | Set push without parameters default, now you can just "git push"  |
 
 ___
 
