@@ -112,12 +112,12 @@ ___
 ## Workflows
 
 ### Easy Squashing
-| Command | Description |
-| ------- | ----------- |
-| `git reset --soft [SHA]` | Undo commit but leave files unchanged |
-| `git add .` | Re-add the files to be tracked |
-| `git commit -m "new squashed message"` | Commit with new message |
-| `git push --force origin [branch name]` |  Re-push, forcing it to override previous commits |
+| Step | Command | Description |
+| ------- | ------- | ----------- |
+| 1 | `git reset --soft [SHA]` | Undo commit but leave files unchanged |
+| 2 | `git add .` | Re-add the files to be tracked |
+| 3 | `git commit -m "new squashed message"` | Commit with new message |
+| 4 | `git push --force origin [branch name]` |  Re-push, forcing it to override previous commits |
 
 ### Reverting Changes to a File
 | Command | Description |
