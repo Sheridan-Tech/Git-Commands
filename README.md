@@ -96,6 +96,7 @@ ___
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff <source branch> <target branch>` | Compare branches |
+| `git diff --name-only <source branch> <target branch>` | Compare branch filenames only |
 | `git diff <branch> <target_branch>:<outside_remote_repo_url>` | Compare branch to a branch on another repo |
 | `git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative` | Git logs with graphs and color |
 | `alias gitlg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"` | Create a gitlg shortcut in the bash shell for git logs with graphs and color, can be added to the end of your .bashrc |
