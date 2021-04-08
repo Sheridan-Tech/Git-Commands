@@ -138,6 +138,31 @@ ___
 
 ___
 
+### Git diff settings I used to setup Beyond Compare 4
+```
+git config --global --edit
+```
+**For Windows 10 add the following lines to the .gitconfig:**
+```
+[diff]
+    tool = beyondcompare4
+[difftool "beyondcompare4"]
+    cmd = \"C:\\Program Files\\Beyond Compare 4\\bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+[merge]
+    tool = beyondcompare4
+[mergetool]
+    keepbackup = false
+[mergetool "beyondcompare4"]
+    cmd = \"C:\\Program Files\\Beyond Compare 4\\bcomp.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
+    trustexitcode = true
+```
+### Git diff commands
+```
+git difftool --dir-diff <dir1> <dir2>
+```
+
+___
+
 _A list of useful Git commands_
 
 *If you are interested in Josh's Git aliases, have a look at his `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
