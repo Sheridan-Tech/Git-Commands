@@ -158,7 +158,7 @@ git config --global --edit
 ```
 ### Git diff commands
 ```
-git difftool --dir-diff <dir1> <dir2>
+git difftool --dir-diff <dir1_or_branch1> <dir2_or_branch2>
 ```
 
 ___
