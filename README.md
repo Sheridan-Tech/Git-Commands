@@ -160,6 +160,23 @@ git config --global --edit
 ```
 git difftool --dir-diff <dir1_or_branch1> <dir2_or_branch2>
 ```
+### Migrating from one repository to another
+#### List your existing remotes in order to get the name of the remote you want to change.
+```
+git remote -v
+```
+#### Now delete the old
+```
+git remote set-url --delete <name> <url>
+```
+#### And add the new
+```
+git remote set-url --add <name> <newurl>
+```
+#### But it may be easier to push, especially if you want to leave the upstream intact
+```
+git remote set-url --push <name> <newurl>
+```
 
 ___
 
