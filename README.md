@@ -5,10 +5,12 @@ _A more comprehensive list of useful Git commands with organization by task in m
 
 ___
 
-### Getting & Creating Projects
+### Getting Started & Creating Projects
 
 | Command | Description |
 | ------- | ----------- |
+| `git config --global user.name "John Doe"` | Configure username |
+| `git config --global user.email johndoe@example.com` | Configure email address, should be the one associated with git repo |
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/<username>/<repository-name>.git` | Create a local copy of a remote repository |
 
