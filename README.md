@@ -85,6 +85,7 @@ ___
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git pull` | Update local repository to the newest commit |
 | `git pull --rebase` | Rebase from tracked branch |
+| `git rebase origin/develop` | Rebase from specific branch, develop in this case |
 | `git pull origin <branch name>` | Pull changes from remote repository |
 | `git remote add origin ssh://git@github.com/<username>/<repository-name>.git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/<username>/<repository-name>.git` | Set a repository's origin branch to SSH |
