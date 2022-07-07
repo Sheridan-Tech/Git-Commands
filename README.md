@@ -83,6 +83,7 @@ ___
 | `git push origin <branch name>` | Push a branch to your remote repository |
 | `git push -u origin <branch name>` | Push changes to remote repository (and remember the branch) |
 | `git push` | Push changes to remote repository (remembered branch) |
+| `git push --mirror <targetRepoURL>` | Push changes to mirror these on another remote repository |
 | `git pull` | Update local repository to the newest commit |
 | `git pull --rebase` | Rebase from tracked branch |
 | `git rebase origin/develop` | Rebase from specific branch, develop in this case |
