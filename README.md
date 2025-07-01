@@ -116,6 +116,7 @@ ___
 | `git clean -f <path>` | To remove a specific file |
 | `git clean -fd` | To remove directories |
 | `git clean -f -x` | To also remove ignored files |
+| `git update-index --assume-unchanged <file>` | Stop tracking new updates to the file, maintain it on the branch as if it is unchanged |
 
 ## Workflows
 
